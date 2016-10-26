@@ -1,0 +1,194 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>KPI_Display</title>
+    <script type="text/javascript" src="Chart.js"></script>
+    <script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+		<meta name = "viewport" content = "initial-scale = 1, user-scalable = no">
+
+    <link href="index.css" rel="stylesheet">
+		<meta charset="UTF-8">
+  </head>
+  <body>
+    <div class="kpi_display">
+      <canvas class="canvas" id="A" ></canvas>
+      <canvas class="canvas" id="B" ></canvas>
+      <canvas class="canvas" id="C" ></canvas>
+    </div>
+    <div class="kpi_display">
+      <canvas class="canvas" id="D" ></canvas>
+      <canvas class="canvas" id="E" ></canvas>
+      <canvas class="canvas" id="F" ></canvas>
+    </div>
+
+
+    <script>
+		  var doughnutData = [
+				{
+					day: 1,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 2,
+					value : 360/31,
+					color : "#46BFBD"
+				},
+				{
+					day: 3,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 4,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 5,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 6,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 7,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 8,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 9,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 10,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 11,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 12,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 13,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 14,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 15,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 16,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 17,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 18,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 19,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 20,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 21,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 22,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 23,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 24,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 25,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 26,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 27,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 28,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 29,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 30,
+					value: 360/31,
+					color:"#F7464A"
+				},
+				{
+					day: 31,
+					value: 360/31,
+					color:"#F7464A"
+				}
+
+			];
+
+	     var myDoughnut = new Chart(document.getElementById("A").getContext("2d")).Doughnut(doughnutData, null, "A");
+       var myDoughnut = new Chart(document.getElementById("B").getContext("2d")).Doughnut(doughnutData, null, "B");
+       var myDoughnut = new Chart(document.getElementById("C").getContext("2d")).Doughnut(doughnutData, null, "C");
+       var myDoughnut = new Chart(document.getElementById("D").getContext("2d")).Doughnut(doughnutData, null, "D");
+       var myDoughnut = new Chart(document.getElementById("E").getContext("2d")).Doughnut(doughnutData, null, "E");
+       var myDoughnut = new Chart(document.getElementById("F").getContext("2d")).Doughnut(doughnutData, null, "F");
+
+  </script>
+  </body>
+</html>
